@@ -1,0 +1,129 @@
+/* genel stiller */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background-color:#07A;
+    text-align: center;
+    margin:20px 0;
+}
+/* form stilleri */
+form#formset {
+    width: 360px;
+    margin: 0 auto;
+    text-align: left;
+    color:#fff;
+}
+form#formset fieldset {
+    margin: 0 0 1em 0;
+    padding: 1.5em 1.5em 0 1.5em;
+    border: #DDD 1px solid;
+}
+form#formset fieldset legend {
+    font-weight: bold;
+    color: #fff;
+    padding:0 0.5em;
+}
+form#formset label {
+    display: block;
+    width: 290px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0px 0px 12px 0px;
+}
+form#formset fieldset input {
+    display: block;
+    margin-top: 3px;
+    border:1px solid #fff;
+    border-left:5px solid #fff;
+    background-color:#09c;
+    color:#ffc;
+}
+form#formset label.adAlani, form#formset label.adresAlani,
+form#formset label.sehirAlani,
+form#formset label.epostaAlani {
+    clear: left;
+}
+form#formset label.adAlani,
+form#formset label.soyadAlani,
+form#formset label.sehirAlani,
+form#formset label.epostaAlani,
+form#formset label.telAlani {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    width: 150px;
+}
+form#formset label.adAlani input,
+form#formset label.soyadAlani input,
+form#formset label.epostaAlani input,
+form#formset label.sehirAlani input,
+form#formset label.telAlani input {
+    float: left;
+    width: 150px;
+    padding: 0px;
+}
+form#formset label.postakoduAlani {
+    float: left;
+    width: 80px;
+}
+form#formset label.postakoduAlani input {
+    float: left;
+    width: 80px;
+}
+form#formset label.adresAlani {
+    float: left;
+    width: 310px;
+    margin: 0px 0px 0px 0px;
+}
+form#formset label.adresAlani input {
+    float: left;
+    width: 310px;
+    padding: 0px;
+}
+form#formset fieldset input#radiobutton_1,
+form#formset fieldset input#radiobutton_2,
+form#formset fieldset input#radiobutton_3,
+form#formset fieldset input#radiobutton_4 {
+    clear: left;
+    float: left;
+    padding: 0px;
+    border:0;
+    margin: 0px 0px 0px 0px;
+    background-color:#07a;
+}
+form#formset label.konuRadyoButon {
+    clear: none;
+    margin: 0px 0px 0px 25px;
+    padding: 0px 0px 15px 0px;
+}
+form#formset fieldset input#checkbox_1,
+form#formset fieldset input#checkbox_2,
+form#formset fieldset input#checkbox_3 {
+    clear: both;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border:0;
+    background-color:#07a;
+}
+form#formset label.onayAlaniIsaretKutusu {
+    clear: none;
+    margin: 0px 0px 0px 25px;
+    padding: 0px 0px 15px 0px;
+}
+form#formset textarea {
+    display: block;
+    margin-top: 3px;
+    border:1px solid #fff;
+    border-left:5px solid #fff;
+    background-color:#09c;
+    color:#ffc;
+}
+form#formset blockquote{
+    margin-bottom:10px;
+}
+    form#formset fieldset em, form#formset blockquote em{
+    color:#ff0;
+}

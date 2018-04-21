@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+        
+         .navbar {
+             margin-bottom: 0;
+             border-radius: 0;
+         }
+		 #b {
+		 background-color: blue;
+		 }
+		 footer {
+             background-color: black;
+             padding: 5px;
+			 text-align: center;
+         }
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+		 
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="inicio.html">Inicio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="quienes.html">Quienes somos</a></li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </nav>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Queremos tenerte cerca</h1>
+    <p>La pesca es una afición que se adopta desde bien pequeño. Únete a nuestra comunidad y encuentra contenido interesante, fotos, vídeos y artículos de lectura.</p><a id="b" href="registro.html" target="_blank" class="btn btn-success btn-lg">Regístrate</a></p>
+	</div>
+<div class="slider">
+			<ul>
+				<li>
+  <img src="img/v.png"  alt="Icono Vegapesca">
+ </li>
+				<li>
+  <img src="img/v1.jpg" alt="Experiencias únicas">
+</li>
+				<li>
+  <img src="img/v2.jpg" alt="La Suerte de conocerte">
+</li>
+		<li>
+  <img src="img/vega.jpg" alt="Vega">
+</li>
+			</ul>
+	<p>Registrándote aceptas las condiciones de Vega Pesca que son totalmente legales. Gracias por su confianza<br><b>Un cordial saludo, EL EQUIPO DE VEGA PESCA </b></p>
+		</div>
+	<hr>
+	<div class="row">
+		<div class="col-xs-12">
+			<footer >
+				<p>Todos los derechos reservados a VegaPesca </p>
+			</footer>
+		</div>
+	</div>
+</div>
+</body>
+</html>

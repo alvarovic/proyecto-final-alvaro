@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/form.css">
+	<title>Registro</title>
+</head>
+<body>
+  <form action="gonder.html" method="post" id="formset">
+	<fieldset>
+		<legend>Datos</legend>
+		<label required class="adAlani">Nombre <em>&#42;</em>
+		<input name="ad" type="text" id="ad" value="" />
+		</label>
+		<label required class="soyadAlani">Apellido <em>&#42;</em>
+		<input name="soyad" type="text" id="soyad" value="" />
+		</label>
+		<label required class="adresAlani">Correo electrónico  <em>&#42;</em>
+		<input name="adres" type="text" id="adres" value="" />
+		</label>
+		<label required class="sehirAlani">Calle <em>&#42;</em>
+		<input name="sehir" type="text" id="sehir" value="" />
+		</label>
+		<label required class="postakoduAlani">CP<em>&#42;</em>
+		<input name="postakodu" type="text" id="postakodu" value="" />
+		</label>
+		<label class="epostaAlani hata">Ciudad
+		<input name="eposta" type="text" id="eposta" value="" class="hata" />
+		</label>
+		<label class="telAlani">Teléfono<input name="tel" type="text" id="tel" value="" />
+		</label>
+	</fieldset>
+	<fieldset required>
+		<legend>¿Por qué estas aquí? <em>&#42;</em></legend>
+		<input id="radiobutton_1" type="radio" name="radiobutton_type" value="" />
+		<label class="konuRadyoButon" for="radiobutton_1">Me gusta la pesca	</label>
+		<input id="radiobutton_2" type="radio" name="radiobutton_type" value="" />
+		<label  class="konuRadyoButon" for="radiobutton_2">Sólo quiero información</label>
+		<input id="radiobutton_3" type="radio" name="radiobutton_type" value="" />
+		<label class="konuRadyoButon" for="radiobutton_3">Me he equivocado de página </label>
+		<input id="radiobutton_4" type="radio" name="radiobutton_type" value="" />
+		<label class="konuRadyoButon" for="radiobutton_4">He entrado por curiosidad </label>
+	</fieldset>
+	<fieldset>
+		<legend>Comentarios</legend>
+		<label class="aciklamaAlani">Deja tu comentario<em>&#42;</em><br /><textarea required name="describe" cols="35" rows="5"></textarea>
+		</label>
+	</fieldset>
+	<fieldset>
+		<legend>Condiciones</legend>
+		<input required		id="checkbox_1" type="checkbox" name="kabul" value="y" />
+        <label for="checkbox_1" class="onayAlaniIsaretKutusu">Acepto los términos y condiciones<em>&#42;</em></label>
+		<input required id="checkbox_2" type="checkbox" name="kabul" value="y" />
+        <label for="checkbox_2" class="onayAlaniIsaretKutusu">Soy mayor de edad.<em>&#42;</em></label>
+	</fieldset>
+	<blockquote><strong>Nota:</strong>(<em>*</em>) Rellenar Obligatoriamente.</blockquote>
+	<input type="submit" name="submit" value="Registrarse" class="formbutton" />
+</form>
+
+</body>
+</html>
